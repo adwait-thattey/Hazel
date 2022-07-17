@@ -11,9 +11,16 @@ int main(int argc, char** argv)
 	int a = 5;
 	HZ_INFO("Hello! Var={0}", a);
 
+	HZ_TRACE("Trace message");
+
+	
 	auto app = Hazel::CreateApplication();
-	app->Run();
-	delete app;
+	std::unique_ptr<Hazel::Application> ptrApp;
+	ptrApp.reset(app);
+
+	ptrApp->Run();
+	
+	//delete app;
 }
 
 #endif

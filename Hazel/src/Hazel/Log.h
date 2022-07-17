@@ -4,6 +4,7 @@
 
 #include "Core.h"
 #include "spdlog/spdlog.h"
+#include <spdlog/sinks/stdout_sinks.h>
 
 namespace Hazel {
 
