@@ -8,7 +8,7 @@ workspace "Hazel"
 		"Dist"
 	}
 
-outputdir = "%{cfg.buildcgf}-%{cfg.system}-%{cfg.architecture}"  -- use macros to build the path
+outputdir = "%{cfg.buildcfg}-%{cfg.system}-%{cfg.architecture}"  -- use macros to build the path
 
 project "Hazel"
 	location "Hazel" -- relative path from root
@@ -29,7 +29,7 @@ project "Hazel"
 
 	}
 
-	include
+	includedirs
 	{
 		"%{prj.name}/vendor/spdlog/include"
 	}
@@ -64,7 +64,7 @@ project "Hazel"
 		defines "HZ_RELEASE"
 		optimize "On"
 
-	filter "configuration:Dist"
+	filter "configurations:Dist"
 		defines "HZ_DIST"
 		optimize "On"
 
@@ -93,9 +93,9 @@ project "Sandbox"
 
 	}
 
-	include
+	includedirs
 	{
-		"%{prj.name}/vendor/spdlog/include",
+		"Hazel/vendor/spdlog/include",
 		"Hazel/src"
 	}
 
@@ -129,7 +129,7 @@ project "Sandbox"
 		defines "HZ_RELEASE"
 		optimize "On"
 
-	filter "configuration:Dist"
+	filter "configurations:Dist"
 		defines "HZ_DIST"
 		optimize "On"
 
