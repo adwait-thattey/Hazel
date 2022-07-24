@@ -8,6 +8,12 @@ workspace "Hazel"
 		"Dist"
 	}
 
+	platforms
+	{
+		"Win64",
+		"Linux-Arch"
+	}
+
 outputdir = "%{cfg.buildcfg}-%{cfg.system}-%{cfg.architecture}"  -- use macros to build the path
 
 project "Hazel"
