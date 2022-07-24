@@ -1,0 +1,444 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.3
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Sun Jul 24 17:34:14 2022
+
+# Variables
+
+# environment
+GDK_BACKEND = x11
+# environment
+LC_ALL = C
+# environment
+NO_AT_BRIDGE = 1
+# environment
+GTK_RC_FILES = /etc/gtk/gtkrc:/home/coderdude/.gtkrc:/home/coderdude/.config/gtkrc
+# environment
+DRIVE_ADTH = /run/media/coderdude/adth
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-dbceaf8a-6897-4a37-9250-f841a724705a.sock
+# environment
+KONSOLE_DBUS_SERVICE = :1.69
+# environment
+VSCODE_CWD = /run/media/coderdude/Adwait/Projects/Learn Tutorials/Hazel/Self Dev
+# environment
+GPG_TTY = /dev/pts/1
+# environment
+WINDOWID = 79691783
+# default
+MAKE_COMMAND := make
+# environment
+DRIVE_SECONDRY = /run/media/coderdude/Secondry
+# environment
+GOPATH = /run/media/coderdude/adth/arch/go/
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+KONSOLE_VERSION = 220402
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# environment
+PWD = /run/media/coderdude/Adwait/Projects/Learn Tutorials/Hazel/Self Dev/Hazel
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+MAIL = /var/spool/mail/coderdude
+# environment
+KONSOLE_DBUS_WINDOW = /Windows/1
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+VSCODE_LOG_STACK = false
+# automatic
+%F = $(notdir $%)
+# environment
+define BASH_FUNC_gccp%%
+() {  filter_inp "$@";
+ preprocess_params;
+ case ${#files[@]} in 
+ 0)
+ echo "Usage: gccp <code_file> [input_file] [parameters]";
+ echo "Run gccp --help to get full list of params"
+ ;;
+ 1)
+ g++ --std=c++$gppversion -Wshadow -Wall -o $out_file ${files[0]} -g -fsanitize=address -fsanitize=undefined -D_GLIBCXX_DEBUG && time ./result.out
+ ;;
+ 2)
+ g++ --std=c++$gppversion -Wshadow -Wall -o $out_file ${files[0]} -g -fsanitize=address -fsanitize=undefined -D_GLIBCXX_DEBUG && time sh -c " cat ${files[1]} | ./result.out "
+ ;;
+ esac;
+ postprocess_params
+}
+endef
+# environment
+VSCODE_CODE_CACHE_PATH = /home/coderdude/.config/Code/CachedData/30d9c6cd9483b2cc586687151bcbcd635f373630
+# environment
+XDG_SESSION_PATH = /org/freedesktop/DisplayManager/Session1
+# environment
+LANG = C
+# environment
+XAUTHORITY = /home/coderdude/.Xauthority
+# default
+.LOADED := 
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# environment
+COLORFGBG = 15;0
+# makefile
+MAKEFLAGS = pqrR
+# makefile
+CURDIR := /run/media/coderdude/Adwait/Projects/Learn Tutorials/Hazel/Self Dev/Hazel
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+DRIVES_PREFIX = /run/media
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+PAM_KWALLET5_LOGIN = /run/user/1000/kwallet5.socket
+# environment
+MFLAGS = -pqrR
+# default
+.SHELLFLAGS := -c
+# environment
+XDG_CONFIG_DIRS = /home/coderdude/.config/kdedefaults:/etc/xdg
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+XCURSOR_THEME = breeze_cursors
+# environment
+XDG_SESSION_DESKTOP = KDE
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST := Makefile
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+VSCODE_PID = 3556
+# environment
+XDG_SESSION_TYPE = x11
+# makefile (from 'Makefile', line 39)
+PROJECTS := Hazel Sandbox
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+DRIVE_TOSHIBA = /run/media/coderdude/TOSHIBA EXT
+# automatic
+*F = $(notdir $*)
+# environment
+define BASH_FUNC_gccpp%%
+() {  filter_inp "$@";
+ preprocess_params;
+ case ${#files[@]} in 
+ 0)
+ if [ ${#params[@]} -eq 0 ]; then
+ echo "Usage: gccpp <code_file> [input_file] [parameters]";
+ echo "Run gccpp --help to get full list of params";
+ fi
+ ;;
+ 1)
+ g++ --std=c++$gppversion -Wshadow -Wall -o $out_file ${files[0]} -O2 -Wno-unused-result && time ./result.out
+ ;;
+ 2)
+ g++ --std=c++$gppversion -Wshadow -Wall -o $out_file ${files[0]} -O2 -Wno-unused-result && time sh -c " cat ${files[1]} | ./result.out "
+ ;;
+ esac;
+ postprocess_params
+}
+endef
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# environment
+DRIVE_ADWAIT = /run/media/coderdude/Adwait
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# makefile
+SHELL = /bin/sh
+# default
+MAKECMDGOALS := all
+# environment
+DIR_STUDY = /run/media/coderdude/Adwait/Study
+# environment
+SHLVL = 1
+# environment
+DIR_COLLEGE_STUDY = /run/media/coderdude/Adwait/Study/College Study
+# environment
+PROFILEHOME = /home/coderdude
+# makefile (from 'Makefile', line 12)
+Hazel_config = debug_win64
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = /home/coderdude/kde/src/kdesrc-build:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/coderdude/.local/share/JetBrains/Toolbox/scripts
+# default
+MAKEFILES := 
+# environment
+LANGUAGE = 
+# environment
+MOTD_SHOWN = pam
+# automatic
+^F = $(notdir $^)
+# environment
+INVOCATION_ID = 57f473e8f53d4c5789658ccc3f3c7794
+# makefile (from 'Makefile', line 13)
+Sandbox_config = debug_win64
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?F = $(notdir $?)
+# environment
+KDE_APPLICATIONS_AS_SCOPE = 1
+# environment
+XDG_SEAT = seat0
+# environment
+XDG_CURRENT_DESKTOP = KDE
+# automatic
++F = $(notdir $+)
+# environment
+XDG_SEAT_PATH = /org/freedesktop/DisplayManager/Seat0
+# environment
+DESKTOP_SESSION = plasma
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = KDE
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+LOGNAME = coderdude
+# environment
+XDG_VTNR = 1
+# makefile
+.DEFAULT_GOAL := all
+# environment
+SYSTEMD_EXEC_PID = 681
+# environment
+DISPLAY = :0
+# environment
+GTK_MODULES = canberra-gtk-module
+# environment
+USER = coderdude
+# default
+MAKE_VERSION := 4.3
+# environment
+KDE_SESSION_UID = 1000
+# environment
+DIR_PROJECTS = /run/media/coderdude/Adwait/Projects
+# environment
+KONSOLE_DBUS_SESSION = /Sessions/1
+# environment
+MANAGERPID = 614
+# environment
+_ = /usr/bin/make
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# environment
+COLORTERM = truecolor
+# environment
+DIR_SOFTWARES = /run/media/coderdude/Adwait/Softwares
+# environment
+JOURNAL_STREAM = 8:22817
+# environment
+XDG_SESSION_CLASS = user
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+GTK2_RC_FILES = /etc/gtk-2.0/gtkrc:/home/coderdude/.gtkrc-2.0:/home/coderdude/.config/gtkrc-2.0
+# environment
+HOME = /home/coderdude
+# environment
+SUDO_PROMPT = [1m[31m[sudo] [37mpassword for [36mcoderdude[37m:(B[m
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-2d1fd362-1.68.1-main.sock
+# environment
+TERM = xterm-256color
+# environment
+XDG_SESSION_ID = 2
+# environment
+XCURSOR_SIZE = 24
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# makefile (from 'Makefile', line 4)
+config = debug_win64
+# default
+SUFFIXES := 
+# environment
+QT_AUTO_SCREEN_SCALE_FACTOR = 0
+# makefile (from 'Makefile', line 8)
+SILENT = @
+# environment
+VSCODE_CLI = 1
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# environment
+SHELL_SESSION_ID = 457e438915a64879b57f13d771748a71
+# environment
+KDE_SESSION_VERSION = 5
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink guile load
+# environment
+KDE_FULL_SESSION = true
+# environment
+DRIVE_GAMES = /run/media/coderdude/Secondry/Games
+# variable set hash-table stats:
+# Load=127/1024=12%, Rehash=0, Collisions=13/171=8%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 2065, inode 139): 20 files, no impossibilities.
+
+# 20 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+ 
+#  Last modified 2022-07-24 17:33:53.1200216
+#  File has been updated.
+#  Successfully updated.
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 58):
+	@${MAKE} --no-print-directory -C Hazel -f Makefile clean
+	@${MAKE} --no-print-directory -C Sandbox -f Makefile clean
+
+Sandbox: Hazel
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 53):
+	@echo "==== Building Sandbox ($(Sandbox_config)) ===="
+	@${MAKE} --no-print-directory -C Sandbox -f Makefile config=$(Sandbox_config)
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all: Hazel Sandbox
+#  Phony target (prerequisite of .PHONY).
+#  Command line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/7=0%
+
+help:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 62):
+	@echo "Usage: make [config=name] [target]"
+	@echo ""
+	@echo "CONFIGURATIONS:"
+	@echo "  debug_win64"
+	@echo "  debug_linux-arch"
+	@echo "  release_win64"
+	@echo "  release_linux-arch"
+	@echo "  dist_win64"
+	@echo "  dist_linux-arch"
+	@echo ""
+	@echo "TARGETS:"
+	@echo "   all (default)"
+	@echo "   clean"
+	@echo "   Hazel"
+	@echo "   Sandbox"
+	@echo ""
+	@echo "For more information, see https://github.com/premake/premake-core/wiki"
+
+Hazel:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := Hazel
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=4/15=27%
+#  recipe to execute (from 'Makefile', line 47):
+	@echo "==== Building Hazel ($(Hazel_config)) ===="
+	@${MAKE} --no-print-directory -C Hazel -f Makefile config=$(Hazel_config)
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.PHONY: all clean help Hazel Sandbox
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=9/1024=1%, Rehash=0, Collisions=0/33=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 28 / storage = 243 B / avg = 8 B
+# current buf: size = 8162 B / used = 243 B / count = 28 / avg = 8 B
+
+# strcache performance: lookups = 50 / hit rate = 44%
+# hash-table stats:
+# Load=28/8192=0%, Rehash=0, Collisions=0/50=0%
+# Finished Make data base on Sun Jul 24 17:34:14 2022
+
+ 
